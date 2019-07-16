@@ -8,11 +8,12 @@ class Login(Query) :
 
 	Email = None
 	Password = None
+	Id = None
 
 	# Constructor To Accept, Email & Password
 	def __init__(self, email, password) :
 
-		Id = None;
+		
 		# Call The Constructor Of The Parent Class To Initialize The Database Connection
 		Query.__init__(self)
 
