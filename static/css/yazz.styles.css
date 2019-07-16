@@ -1,0 +1,629 @@
+
+/* For Screens Of PCs and Laptops */
+@media only screen and (min-width: 605px){
+   
+  .app-nav{
+  	width: 100%;
+  	height: 60px;
+  	border-bottom: 0.15em solid #1DA1F2;
+  	background-color: #ffffff;
+    padding-top: 1%;
+  }
+
+  .app-nav-table{
+  	width: 100%;
+  }
+  .app-search-table{
+  	width: 80%;
+  }
+  .app-nav-tab,
+  .app-search-icon{
+  	padding: 6px;
+  }
+
+  .app-block-popout{
+    position: fixed; 
+    z-index: 9999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .app-block-popout-content{
+    background-color: #fff;
+    border: 0.15em solid #1DA1F2;
+    width: 540px;
+    height: 630px;
+    position: fixed;
+    top: 2%;
+    left: 350px;
+    overflow-y: auto;
+  }
+
+  .app-block-popout-content::-webkit-scrollbar {
+    width: 0.8em;
+  }
+ 
+  .app-block-popout-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+ 
+  .app-block-popout-content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  .app-media-body{
+  	width :100%;
+  	height: auto;
+  }
+  .app-profile-nav{
+    position: fixed;
+    top: 9%;
+    width: 39.5%;
+    background-color: #fff;
+    height: 45px;
+    z-index: 2;
+  }
+  .app-user-info-body{
+    border: 0.15em solid #1DA1F2;
+    width: 30%;
+    height: auto;
+    position: fixed;
+    background-color: #fff;
+  }
+
+  .app-modal-nav-top{
+    background-color: #fff;
+    border-bottom: 0.15em solid #1DA1F2;
+    position: fixed;
+    width : 39.5%;
+  }
+
+  .app-input-table{
+    width: 100%;
+    height: 40px;
+  }
+  .app-input-wrapper{
+    width: 39.75%;
+    position: fixed;
+    bottom: 2.4%;
+    height: 40px;
+    padding-bottom: 3%;
+    background-color: #fff;
+  }
+
+  .app-toast{
+    width: 23%;
+    position: fixed;
+    bottom: 10%;
+    left: 2;
+    background-color: #1DA1F2;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 4%;
+    display: none;
+  }
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+  .app-trending{
+    width: 100%;
+    border: 0.15em solid #1DA1F2;
+    height: 188px;
+  }
+  .app-you-may-know{
+    width: 100%;
+    height: 60%;
+    border: 0.15em solid #1DA1F2;
+    
+  }
+  .suggested-header{
+    height: 38px;
+    width: 100%;
+    border-bottom: 0.15em solid #1DA1F2;
+  }
+  .suggested-body,
+  .app-suggest-table{
+    height: auto;
+    width: 100%;
+  }
+  .app-side-bar{
+    width: 32%;
+    height: auto;
+    position: fixed;
+    right: 5px;
+  }
+
+  .app-search-dropdown{
+    width: 33%;
+    height: auto;
+    position: fixed;
+    top: 9%;
+    left: 62%;
+    background-color: #fff;
+    border: 0.15em solid #1DA1F2;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: 2px 2px 2px 2px rgb(220,220,220,0.6);
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .app-video-body,
+  .app-image-body{
+    height: auto;
+    width: 100%;
+  }
+  video{
+    max-height: 550px;
+    min-height: 200px;
+    max-width: 99.9%;
+  }
+
+} /* End */
+
+/* For Screens Of Mobile Phones */
+@media only screen and (max-width: 700px){
+   .app-nav{
+  	width: 100%;
+  	height: 30px;
+  	background-color: #ffffff
+  }
+
+  .app-nav-table{
+  	width: 100%;
+    padding-bottom: : 3%;
+  }
+
+  .app-nav-tab{
+  	
+  }
+  .app-block-popout{
+  	display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .app-block-popout-content{
+    background-color: #fff;
+    border: 0.15em solid #1DA1F2;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    top: 50%;
+    z-index: 8888;
+    overflow-y: auto;
+  }
+
+  .app-media-body{
+  	width :100%;
+  	height: 100%;
+    object-fit: contain;
+  }
+  .app-user-info-body{
+    border: 0.15em solid #1DA1F2;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+  .app-profile-nav{
+    width: 100%;
+    background-color: #fff;
+  }
+  .app-user-info-nav{
+    background-color: #fff;
+  }
+  .app-modal-nav-top{
+    background-color: #fff;
+    border-bottom: 0.15em solid #1DA1F2;
+    position: fixed;
+    width : 99%;
+  }
+  .app-input-table{
+    width: 100%;
+    height: 40px;
+  }
+  .app-input-wrapper{
+    width: 99%;
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    padding-bottom: 3%;
+    background-color: #fff;
+  }
+
+  .app-toast{
+    width: 93%;
+    position: fixed;
+    bottom: 10%;
+    background-color: #1DA1F2;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 4%;
+    display: none;
+    box-shadow: 3px 0px 3px 3px rgba(0,0,0,0.4);;
+  }
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+
+} /* End */
+
+/*
+  Universal Styles
+  Styles That Stay the Same Whether Its Mobile Or PC
+*/
+   .app-loader {
+    border: 5px solid #1DA1F2;
+    border-radius: 50%;
+    border-top: 5px solid snow;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+   }
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+   }
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+   }
+   label{
+    cursor: pointer;
+   }
+  a{
+  	cursor: pointer;
+  	color: #111;
+  	text-decoration: none;
+  }
+  a:active{
+  	color: #111;
+  	text-decoration: none;
+    outline: none;
+  }
+  .app-post-body-wrap{
+  	width: 100%;
+  	height: auto;
+  	border: 0.15em solid #1DA1F2;
+  }
+
+  .app-header-table{
+  	width: 100%;
+  	height: auto;
+  }
+  .app-reaction-table{
+    border-top: 0.02em solid #1DA1F2;
+    width: 100%;
+    height: auto;
+  }
+
+  .app-profile-nav-table{
+    border-bottom: 0.15em solid #1DA1F2;
+    border-left: 0.15em solid #1DA1F2;
+    border-right: 0.15em solid #1DA1F2;
+    background-color: #fff;
+  }
+  .app-modal-nav-table,
+  .app-profile-nav-table,
+  .app-user-info-nav-table,
+  .app-notif-table{
+  	width: 100%;
+  	height: 45px;
+  }
+  .app-modal-nav-table,
+  .app-modal-nav-top{
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .app-user-info-nav,
+  .app-user-info-nav-table{
+    border-bottom: 0.15em solid #1DA1F2;
+  }
+
+  .like-react-tab,
+  .comment-react-tab{
+  	 width: 15%;
+  	 height: 35px;
+     padding: 1%;
+  }
+  .img-tab{
+  	width: 10%;
+  	height: 35px;
+  }
+  .name-tab{
+  	width: 60%;
+  	height: 35px
+  }
+  .options-tab,
+  .app-modal-navback-tab,
+  .app-modal-nav-options,
+  .icon-tab,
+  .list-tab,
+  .grid-tab,
+  .saved-tab{
+  	width: 20%;
+  }
+  .back-tab,
+  .refresh-tab,
+  .load-more-tab{
+    width: 10%;
+  }
+  .app-media{
+  	height: 100%;
+  	width: 100%;
+  }
+  .app-react-icon{
+  	padding-right: 6px;
+  }
+  .app-icon-count{
+  	font-size: 10pt;
+  	color: #111;
+  	padding-bottom: 2px
+  }
+  .fire{
+    color: orange;
+  }
+  .app-comment-body{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    width: 100%
+    height: 500px;
+    border-bottom: 0.15em solid #1DA1F2;
+  }
+
+  .text-tab,
+  .notif-text-tab{
+    width: 80%;
+    padding: 0.5%;
+  }
+  .app-comment-table{
+    width: 100%;
+    height: 30px;
+  }
+  .date-text{
+    font-size: 08pt;
+    color: #1DA1F2;
+  }
+  .user-nav-btn{
+    font-size: 16pt
+  }
+  .user-name-tab{
+    width: 40%;
+  }
+  .app-user-info-nav{
+    border-bottom: 0.15em solid #1DA1F2;
+    background-color: #fff;
+  }
+  .app-user-images-body{
+    width: 100%;
+    height: 250px;
+  }
+  .app-full-user-info-table,
+  .app-full-user-info-body,
+  .app-follow-table,
+  .app-message-table,
+  .app-chats-table,
+  .app-grid-table{
+    width: 100%;
+    height: auto;
+  }
+  .empty-tab{
+    width: 40%;
+  }
+  .following-tab,
+  .followers-tab{
+    width: 30%;
+  }
+  .bio-icon-tab{
+    width: 10%;
+  }
+  .bio-tab{
+    width: 90%
+  }
+  .info-icon{
+    width: 14%;
+  }
+  .date-tab,
+  .icon-tab{
+    width: 10%;
+  }
+  .text-tab{
+    width: auto;
+  }
+  .bio-info-tab,
+  .app-full-info-tab,
+  .app-chat-tab,
+  .app-chats-table,
+  .app-input-table,
+  .app-suggest-table{
+    padding: 3%;
+  }
+  .app-user-info-nav-tab,
+  .suggest-tab,
+  .app-header-tab{
+    padding:0.5%;
+  }
+  .app-follow-list{
+    padding-left: 1%;
+  }
+  .message-chat-tab{
+    width: 76%;
+    height: auto;
+  }
+  .app-img-tab,
+  .list-follow-btn,
+  .img-message-tab,
+  .seen-chat-tab,
+  .rec-tab,
+  .media-tab,
+  .send-tab{
+    width: 12%;
+    height: 25px;
+  }
+
+  .input-tab{
+    width: 65%;
+  }
+  .app-name-tab,
+  .list-follow-btn{
+    width: 60%
+  }
+  .count-tr{
+    height: 40px;
+  }
+
+  .media-icons{
+    font-size: 15pt;
+  }
+  table{
+    background-color: #fff;
+  }
+
+  .app-message-bubble{
+    width: 70%;
+    height: auto;
+    padding-bottom: 4%;
+    padding-left: 2%;
+  }
+  .app-left-message{
+    position: relative;
+    left: 0;
+  }
+  .app-right-message{
+    position: relative;
+    left: 10%;
+  }
+
+  .app-small-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .app-audio-canvas{
+    height: 50px;
+    width: 100%;
+  }
+ 
+  input[type="search"],
+  .app-text-input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+  }
+
+  .app-grid-media{
+    width: 100%;
+    height: 100px;
+  }
+  .app-grid-tab{
+    width: 40%;
+    height: 40%;
+  }
+  .upload-form{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    display: none;
+  }
+  .progress{
+    display: none;
+    height: 5px;
+  }
+
+  .progress-bar{
+    background-color: red;
+    width: 0%;
+    height: 5px;
+  }
+
+  .app-grey-text{
+    color: rgb(105,105,105);
+    font-size: 09pt; 
+  }
+
+  .app-small-text{
+    color: #111;
+    font-size: 09pt;
+  }
+
+  .app-bold-text{
+    color: #111;
+    font-size: 13pt;
+    font-weight: 700;
+  }
+
+  .app-mid-text{
+    color: #111;
+    font-size: 11pt;
+    font-weight: 400;
+  }
+
+  
+  .app-user-follow-tab{
+    width: auto;
+    padding: 1%;
+  }
+  .app-modal-view{
+    padding-bottom: 2%;
+  }
+  .space-small{
+    width: 100%;
+    height: 4px;
+  }
+  .space-large{
+    width: 100%;
+    height: 30px;
+  }
+  .app-post-text-body{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+
+  .btn-default{
+    border: 0.15em solid #1DA1F2;
+    font-weight: 600;
+  }
+  .btn-success{
+    border: 0.15em solid #1DA1F2;
+    background-color: #1DA1F2;
+    color: #FFF;
+    font-weight: 600;
+  }
+  .app-tag{
+    color: #1DA1F2;
+    font-weight: 570;
+  }
+
+
+  
+
+  /* End Of Universal Styles */
