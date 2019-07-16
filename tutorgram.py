@@ -20,7 +20,7 @@ def home() :
 def do_login() :
 
 	# Check If The Requests Fields Aren't Empty
-	if request.form.get('email') != '' and request.form.get('password') != '' :
+	if request.args.get('email') != '' and request.args.get('password') != '' :
 
 		# Create Login Object
 
