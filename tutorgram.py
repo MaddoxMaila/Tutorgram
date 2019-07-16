@@ -4,16 +4,21 @@ sys.path.append('i/api/framework')
 
 from login import Login
 
-from flask import Flask, request, session
+from flask import Flask, request, session, render_template,url_for 
 
 
 app = Flask(__name__)
 
 @app.route('/')
+@app.route('/login',methods=['GET', 'POST'])
 
-def home() :
+def Login():
+	return render_template('login.html')
 
-	return str(session.get('id'))
+@app.route('/register',methods=['GET', 'POST'])
+
+def Register():
+	return render_template('signup.html')
 
 @app.route('/i/api/', methods=['GET'])
 
